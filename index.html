@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Bootstrap</title>
+		<link
+		href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+		rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+		<style>
+			.btn:hover {
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Header -->
+
+		<!-- Nav Bar -->
+		<div class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+			<div class="container text-white">
+				<a href="#" class="navbar-brand">ASTC</a>
+				<!-- navbar dropdown button -->
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#main-menu"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<!-- end navbar dropdown button -->
+				<div class="collapse navbar-collapse" id="main-menu">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a href="#main" class="nav-link">Get started</a>
+						</li>
+						<li class="nav-item">
+							<a href="#features" class="nav-link">Features</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a href="#basics" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Learn</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#learn-bootstrap" class="dropdown-item">Bootstrap</a>
+								</li>
+								<li>
+									<a href="What is next" class="dropdown-item">What is next ?</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a href="#faq" class="nav-link">Ask Me</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- end Nav Bar -->
+
+		<!-- end Header -->
+
+		<!-- Main -->
+
+		<!-- Website title -->
+		<section id="main" class="bg-dark text-light text-center text-sm-start py-5">
+			<div class="container">
+				<div class="d-sm-flex align-items-center">
+					<div class="py-3">
+						<h1 class="display-3">Learn
+							<span style="color: #6c63ff;">
+							Bootstrap
+							</span>
+						</h1>
+						<p>Bootstrap is one of the best css framework
+						</p>
+						<button
+						style="background-color: #6c63ff;"
+						class="btn">Get started</button>
+					</div>
+					<img
+					src="../img/title-img.svg"
+					alt=""
+					class="d-none d-sm-block img-fluid w-50"
+					style="margin-left: 200px;"
+					/>
+				</div>
+			</div>
+		</section>
+		<!-- end Website title -->
+
+		<!-- Services -->
+		<section id="features" class="py-5">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-sm">
+						<div class="card bg-dark text-light mb-3">
+							<div class="h1 mt-10">
+								<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"class="bi bi-arrows-angle-contract" viewBox="0 0 16 16">
+								<path fill-rule="evenodd" d="M.172 15.828a.5.5 0 0 0 .707 0l4.096-4.096V14.5a.5.5 0 1 0 1 0v-3.975a.5.5 0 0 0-.5-.5H1.5a.5.5 0 0 0 0 1h2.768L.172 15.121a.5.5 0 0 0 0 .707M15.828.172a.5.5 0 0 0-.707 0l-4.096 4.096V1.5a.5.5 0 1 0-1 0v3.975a.5.5 0 0 0 .5.5H14.5a.5.5 0 0 0 0-1h-2.768L15.828.879a.5.5 0 0 0 0-.707"/>
+								</svg>
+							</div>
+							<div class="card-body text-center">
+								<h4 style="color: #6c63ff;" class="card-title">Responsive</h4>
+								<p class="card-text">
+									Bootstrap is the best choice if you want to make your website responsive without write a lot of CSS code .
+								</p>
+								<a
+								href="#"
+								class="btn"
+								style="background-color: #6c63ff;"
+								>More info</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm">
+						<div class="card bg-dark text-light mb-3">
+							<div class="h1 mt-10">
+								<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-balloon-heart-fill" viewBox="0 0 16 16">
+								<path fill-rule="evenodd" d="M8.49 10.92C19.412 3.382 11.28-2.387 8 .986 4.719-2.387-3.413 3.382 7.51 10.92l-.234.468a.25.25 0 1 0 .448.224l.04-.08c.009.17.024.315.051.45.068.344.208.622.448 1.102l.013.028c.212.422.182.85.05 1.246-.135.402-.366.751-.534 1.003a.25.25 0 0 0 .416.278l.004-.007c.166-.248.431-.646.588-1.115.16-.479.212-1.051-.076-1.629-.258-.515-.365-.732-.419-1.004a2 2 0 0 1-.037-.289l.008.017a.25.25 0 1 0 .448-.224l-.235-.468ZM6.726 1.269c-1.167-.61-2.8-.142-3.454 1.135-.237.463-.36 1.08-.202 1.85.055.27.467.197.527-.071.285-1.256 1.177-2.462 2.989-2.528.234-.008.348-.278.14-.386"/>
+								</svg>
+							</div>
+							<div class="card-body text-center">
+								<h4 style="color: #6c63ff;" class="card-title">Easy Styling</h4>
+								<p class="card-text">
+									In bootstrap you can change the style in your website easly by changing the classes in html files .
+								</p>
+								<a
+								href="#"
+								class="btn"
+								style="background-color: #6c63ff;"
+								>More info</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm">
+						<div class="card bg-dark text-light mb-3">
+							<div class="h1 mt-10">
+								<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+								<path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z"/>
+								</svg>
+							</div>
+							<div class="card-body text-center">
+								<h4 style="color: #6c63ff;" class="card-title">Fast Working</h4>
+								<p class="card-text">
+									You can change the layout and style of your website fastest you can imagne just change the class in code .
+								</p>
+								<a
+								href="#"
+								class="btn"
+								style="background-color: #6c63ff;"
+								>More info</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- What to learn -->
+
+		<section id="learn" class="py-5">
+			<div class="container">
+				<div
+				class="row align-items-center justify-content-center"
+				>
+					<div class="col-md">
+						<img src="../img/coding.svg" alt="coding" class="img-fluid" />
+					</div>
+					<div class="col-md py-4">
+						<h2>Learn the basics</h2>
+						<p>
+							First before you learn bootstrap or any css frameworks you should learn and build very good basics about HTML and CSS .
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Next -->
+
+		<section id="learn" class="py-5 bg-dark text-light">
+			<div class="container">
+				<div
+					class="row align-items-center justify-content-center flex-row-reverse"
+				>
+					<div class="col-md">
+						<img src="../img/next.svg" alt="coding" class="img-fluid" />
+					</div>
+					<div class="col-md py-4">
+						<h2>What is next ?</h2>
+						<p>
+							The next step is start to build a lot of projects to put it in your portfolio .
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- FAQ -->
+
+		<section id="faq" class="py-5">
+			<div class="container">
+				<h2 class="text-center">
+					Frequently Asked Questions
+				</h2>
+				<div class="accordion" id="accordionExample">
+				  <div class="accordion-item">
+				    <h2 class="accordion-header" id="headingOne">
+				      <button
+							class="accordion-button" type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#collapseOne"
+							controls="collapseOne">
+				        Question 1
+				      </button>
+				    </h2>
+				    <div id="collapseOne"
+						class="accordion-collapse collapse"
+						aria-labelledby="headingOne"
+						data-bs-parent="#accordionExample">
+				      <div class="accordion-body">
+				        <p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+				      </div>
+				    </div>
+				  </div>
+				  <div class="accordion-item">
+				    <h2 class="accordion-header" id="headingTwo">
+				      <button
+							class="accordion-button collapsed"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#collapseTwo"
+							aria-expanded="false"
+							aria-controls="collapseTwo">
+				       	Question 2
+				      </button>
+				    </h2>
+				    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+				      <div class="accordion-body">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+				      </div>
+				    </div>
+				  </div>
+				  <div class="accordion-item">
+				    <h2 class="accordion-header" id="headingThree">
+				      <button
+							class="accordion-button collapsed"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#collapseThree"
+							aria-expanded="false"
+							aria-controls="collapseThree">
+				        Question 3
+				      </button>
+				    </h2>
+				    <div id="collapseThree"
+						class="accordion-collapse collapse"
+						aria-labelledby="headingThree"
+						data-bs-parent="#accordionExample">
+				      <div class="accordion-body">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+
+		<footer class="py-5 bg-dark text-light text-center">
+			<div class="container">
+				<p class="lead">
+					Copyright: &copy; 2025 ASTC
+				</p>
+				<a href="#">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+  				<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+					</svg>
+				</a>
+			</div>
+		</footer>
+
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
+</html>
+
